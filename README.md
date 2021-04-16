@@ -19,10 +19,7 @@ To check every 60 seconds for example, the following command can be used:
 ~~~sh
 watch -n 60 ./check-remote.sh            \
   --email terman.emil@gmail.com          \
-  --email emil.terman@gmail.com          \
-  --host nucpcaps2                       \
-  --host-name 'Nicer name for nucpcaps2' \
-  --port 5000
+  ...
 ~~~
 
 Note: to run a command in background `&` can be used. So the following will run in background
